@@ -14,7 +14,6 @@
 - Grade checker (90 = A, 80 = B…)  
 - Count from 1 to 10  
 - Print even numbers up to N  
-- Sum of digits of a number  
 
 💡 **Hints**  
 - Use `Scanner` for user input  
@@ -24,7 +23,7 @@
 
 🛠 **Project: All-in-One Console App**  
 - Greet user, ask age  
-- Menu: Calculator, Grader, Loop Printer  
+- Menu: Calculator, Grader Average, Loop Printer  
 - Use loops, conditionals, and input/output together  
 🎯 Clue: Make it interactive — menu system using `while (true)` and `switch`  
 
