@@ -52,6 +52,7 @@
 
 ### Day 3: Arrays Deep Dive
 📘 **Concepts**: 1D arrays, array methods, enhanced for loops
+
 🧠 **Problems**:
 - Store 10 numbers and find second largest
 - Count frequency of each element
