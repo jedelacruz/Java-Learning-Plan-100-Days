@@ -15,13 +15,13 @@
 📘 `int`, `double`, `String`, `Scanner`, `System.out.print()`, `if-else`, `switch`, `for`, `while`, `do-while`  
 
 🧠 **Problems**  
-- Ask name and age, then print them.  
-- Swap two numbers.  
-- Print sum, difference, and product of two inputs.  
-- Check if number is even or odd.  
-- Grade checker (90 = A, 80 = B…)  
-- Count from 1 to 10  
-- Print even numbers up to N  
+- **NameAndAge.java**: Ask name and age, then print them.  
+- **NumberSwapper.java**: Swap two numbers.  
+- **BasicCalculator.java**: Print sum, difference, and product of two inputs.  
+- **EvenOddChecker.java**: Check if number is even or odd.  
+- **GradeChecker.java**: Grade checker (90 = A, 80 = B…)  
+- **CountToTen.java**: Count from 1 to 10  
+- **EvenNumberPrinter.java**: Print even numbers up to N  
 
 💡 **Hints**  
 - Use `Scanner` for user input  
@@ -29,7 +29,7 @@
 - Loops: `for`, `while`, `do-while`  
 - Conditionals: `if`, `else`, `switch-case`  
 
-🛠 **Project: All-in-One Console App**  
+🛠 **Project: AllInOneConsoleApp.java**  
 - Greet user, ask age  
 - Menu: Calculator, Grader Average, Loop Printer  
 - Use loops, conditionals, and input/output together  
@@ -39,13 +39,13 @@
 📘 `char`, `boolean`, type casting, `Math` class  
 
 🧠 **Problems**  
-- Convert `double` to `int`  
-- Boolean checker for adult age (18+)  
-- Store and display first initial using `char`  
-- Find max of 3 numbers using `if-else`  
-- Create a simple login with hardcoded username/password  
+- **TypeConverter.java**: Convert `double` to `int`  
+- **AgeValidator.java**: Boolean checker for adult age (18+)  
+- **InitialExtractor.java**: Store and display first initial using `char`  
+- **MaxOfThree.java**: Find max of 3 numbers using `if-else`  
+- **SimpleLogin.java**: Create a simple login with hardcoded username/password  
 
-🛠 **Project: BMI Calculator + Age Checker**  
+🛠 **Project: BMICalculatorPlus.java**  
 - Input height and weight, compute BMI  
 - Add conditional: Check if underweight, normal, overweight  
 🎯 Clue: Use `weight / (height * height)` with `if-else`  
@@ -54,12 +54,12 @@
 📘 **Concepts**: 1D arrays, array methods, enhanced for loops
 
 🧠 **Problems**:
-- Store 10 numbers and find second largest
-- Count frequency of each element
-- Merge two sorted arrays
-- Find duplicate elements
+- **SecondLargest.java**: Store 10 numbers and find second largest
+- **ElementFrequency.java**: Count frequency of each element
+- **ArrayMerger.java**: Merge two sorted arrays
+- **DuplicateFinder.java**: Find duplicate elements
 
-🛠 **Project**: Grade Analytics System
+🛠 **Project: GradeAnalytics.java**
 - Input 20 student grades
 - Calculate class average, median, mode
 - Find top 3 and bottom 3 performers
@@ -67,13 +67,14 @@
 
 ### Day 4: Array Algorithms
 📘 **Concepts**: Searching, sorting, array manipulation
-🧠 **Problems**:
-- Binary search implementation
-- Selection sort and insertion sort
-- Rotate array left/right
-- Find missing number in sequence
 
-🛠 **Project**: Inventory Management System
+🧠 **Problems**:
+- **BinarySearch.java**: Binary search implementation
+- **SortingAlgorithms.java**: Selection sort and insertion sort
+- **ArrayRotator.java**: Rotate array left/right
+- **MissingNumber.java**: Find missing number in sequence
+
+🛠 **Project: InventoryManager.java**
 - Add/remove items from stock
 - Search by name/ID
 - Sort by price/quantity
@@ -81,13 +82,14 @@
 
 ### Day 5: Strings & Pattern Matching
 📘 **Concepts**: String methods, StringBuilder, regex basics
-🧠 **Problems**:
-- Count words in sentence
-- Remove duplicates from string
-- Check if anagram
-- Find longest word
 
-🛠 **Project**: Text Analyzer Tool
+🧠 **Problems**:
+- **WordCounter.java**: Count words in sentence
+- **DuplicateRemover.java**: Remove duplicates from string
+- **AnagramChecker.java**: Check if anagram
+- **LongestWordFinder.java**: Find longest word
+
+🛠 **Project: TextAnalyzer.java**
 - Word count, character frequency
 - Find palindromes, anagrams
 - Basic spell checker
@@ -95,13 +97,14 @@
 
 ### Day 6: String Processing & Validation
 📘 **Concepts**: Regular expressions, string parsing
-🧠 **Problems**:
-- Validate email format
-- Extract phone numbers from text
-- Password strength checker
-- Parse CSV data
 
-🛠 **Project**: Data Validation System
+🧠 **Problems**:
+- **EmailValidator.java**: Validate email format
+- **PhoneExtractor.java**: Extract phone numbers from text
+- **PasswordChecker.java**: Password strength checker
+- **CSVParser.java**: Parse CSV data
+
+🛠 **Project: DataValidationSystem.java**
 - Validate user registration data
 - Clean and format input data
 - Generate reports on data quality
@@ -109,13 +112,14 @@
 
 ### Day 7: Methods & Recursion
 📘 **Concepts**: Method overloading, recursion, scope
-🧠 **Problems**:
-- Fibonacci using recursion
-- Tower of Hanoi
-- Calculate GCD/LCM
-- Palindrome checker (recursive)
 
-🛠 **Project**: Math Problem Solver
+🧠 **Problems**:
+- **FibonacciRecursive.java**: Fibonacci using recursion
+- **TowerOfHanoi.java**: Tower of Hanoi
+- **GCDCalculator.java**: Calculate GCD/LCM
+- **PalindromeRecursive.java**: Palindrome checker (recursive)
+
+🛠 **Project: MathProblemSolver.java**
 - Recursive and iterative solutions
 - Performance comparison
 - Step-by-step solution display
@@ -123,13 +127,14 @@
 
 ### Day 8: 2D Arrays & Matrix Operations
 📘 **Concepts**: Multi-dimensional arrays, matrix math
-🧠 **Problems**:
-- Matrix multiplication
-- Transpose matrix
-- Find saddle point
-- Spiral matrix traversal
 
-🛠 **Project**: Game Board Engine
+🧠 **Problems**:
+- **MatrixMultiplier.java**: Matrix multiplication
+- **MatrixTranspose.java**: Transpose matrix
+- **SaddlePointFinder.java**: Find saddle point
+- **SpiralTraversal.java**: Spiral matrix traversal
+
+🛠 **Project: GameBoardEngine.java**
 - Generic board game framework
 - Tic-tac-toe, Connect Four logic
 - Move validation system
@@ -137,13 +142,14 @@
 
 ### Day 9: Exception Handling & Debugging
 📘 **Concepts**: try-catch-finally, custom exceptions, debugging
-🧠 **Problems**:
-- Create custom exception classes
-- Handle multiple exception types
-- Finally block usage
-- Debug complex scenarios
 
-🛠 **Project**: Robust Banking System
+🧠 **Problems**:
+- **CustomExceptions.java**: Create custom exception classes
+- **MultiExceptionHandler.java**: Handle multiple exception types
+- **FinallyBlockDemo.java**: Finally block usage
+- **DebugScenarios.java**: Debug complex scenarios
+
+🛠 **Project: RobustBankingSystem.java**
 - Account operations with validation
 - Transaction logging
 - Error recovery mechanisms
@@ -151,13 +157,14 @@
 
 ### Day 10: File I/O & Data Persistence
 📘 **Concepts**: File operations, serialization, CSV handling
-🧠 **Problems**:
-- Read/write different file formats
-- Parse JSON-like data
-- Handle large files efficiently
-- Backup and restore data
 
-🛠 **Project**: Personal Finance Tracker
+🧠 **Problems**:
+- **FileOperations.java**: Read/write different file formats
+- **JSONParser.java**: Parse JSON-like data
+- **LargeFileHandler.java**: Handle large files efficiently
+- **BackupRestore.java**: Backup and restore data
+
+🛠 **Project: PersonalFinanceTracker.java**
 - Save transactions to files
 - Generate monthly reports
 - Data export/import features
@@ -165,13 +172,14 @@
 
 ### Day 11: Collections Framework - Lists
 📘 **Concepts**: ArrayList, LinkedList, Vector, Stack
-🧠 **Problems**:
-- Implement stack operations
-- Queue using two stacks
-- Find intersection of two lists
-- Remove duplicates efficiently
 
-🛠 **Project**: Task Management System
+🧠 **Problems**:
+- **StackOperations.java**: Implement stack operations
+- **QueueFromStacks.java**: Queue using two stacks
+- **ListIntersection.java**: Find intersection of two lists
+- **DuplicateRemover.java**: Remove duplicates efficiently
+
+🛠 **Project: TaskManager.java**
 - Add/remove tasks with priorities
 - Deadline tracking
 - Task categorization
@@ -179,13 +187,14 @@
 
 ### Day 12: Collections Framework - Sets & Maps
 📘 **Concepts**: HashSet, TreeSet, HashMap, TreeMap
-🧠 **Problems**:
-- Find unique elements
-- Count character frequency
-- Group data by categories
-- Implement LRU cache
 
-🛠 **Project**: Word Dictionary System
+🧠 **Problems**:
+- **UniqueElementFinder.java**: Find unique elements
+- **CharacterFrequency.java**: Count character frequency
+- **DataGrouper.java**: Group data by categories
+- **LRUCache.java**: Implement LRU cache
+
+🛠 **Project: WordDictionary.java**
 - Add/search words
 - Auto-complete suggestions
 - Frequency-based recommendations
@@ -193,13 +202,14 @@
 
 ### Day 13: Iterators & Generics
 📘 **Concepts**: Iterator, ListIterator, Generic classes
-🧠 **Problems**:
-- Custom generic class
-- Type-safe collections
-- Wildcard usage
-- Bounded generics
 
-🛠 **Project**: Generic Data Container
+🧠 **Problems**:
+- **GenericClass.java**: Custom generic class
+- **TypeSafeCollections.java**: Type-safe collections
+- **WildcardUsage.java**: Wildcard usage
+- **BoundedGenerics.java**: Bounded generics
+
+🛠 **Project: GenericDataContainer.java**
 - Type-safe storage system
 - Custom iterator implementation
 - Conversion utilities
@@ -207,13 +217,14 @@
 
 ### Day 14: Date & Time API
 📘 **Concepts**: LocalDate, LocalTime, DateTimeFormatter
-🧠 **Problems**:
-- Calculate age from birthdate
-- Find days between dates
-- Schedule recurring events
-- Time zone conversions
 
-🛠 **Project**: Event Scheduler
+🧠 **Problems**:
+- **AgeCalculator.java**: Calculate age from birthdate
+- **DateDifference.java**: Find days between dates
+- **EventScheduler.java**: Schedule recurring events
+- **TimezoneConverter.java**: Time zone conversions
+
+🛠 **Project: EventScheduler.java**
 - Add/edit events
 - Reminder system
 - Calendar view
@@ -221,13 +232,14 @@
 
 ### Day 15: Basic OOP Introduction
 📘 **Concepts**: Classes, objects, methods, fields
-🧠 **Problems**:
-- Create multiple related classes
-- Object interaction
-- Method chaining
-- Object state management
 
-🛠 **Project**: Library Management System
+🧠 **Problems**:
+- **MultipleClasses.java**: Create multiple related classes
+- **ObjectInteraction.java**: Object interaction
+- **MethodChaining.java**: Method chaining
+- **StateManager.java**: Object state management
+
+🛠 **Project: LibraryManagement.java**
 - Book, Author, Member classes
 - Basic operations
 - Simple relationships
@@ -235,13 +247,14 @@
 
 ### Day 16: Constructors & Object Creation
 📘 **Concepts**: Constructor overloading, this keyword, static
-🧠 **Problems**:
-- Multiple constructor scenarios
-- Object initialization patterns
-- Static vs instance members
-- Builder pattern basics
 
-🛠 **Project**: E-commerce Product Catalog
+🧠 **Problems**:
+- **ConstructorOverload.java**: Multiple constructor scenarios
+- **InitializationPatterns.java**: Object initialization patterns
+- **StaticVsInstance.java**: Static vs instance members
+- **BuilderPattern.java**: Builder pattern basics
+
+🛠 **Project: EcommerceProductCatalog.java**
 - Product variants
 - Category management
 - Price calculations
@@ -249,13 +262,14 @@
 
 ### Day 17: Packages & Access Modifiers
 📘 **Concepts**: Package structure, public/private/protected
-🧠 **Problems**:
-- Create package hierarchy
-- Access control scenarios
-- Utility classes
-- Module organization
 
-🛠 **Project**: Multi-Module Calculator
+🧠 **Problems**:
+- **PackageHierarchy.java**: Create package hierarchy
+- **AccessControlDemo.java**: Access control scenarios
+- **UtilityClasses.java**: Utility classes
+- **ModuleOrganizer.java**: Module organization
+
+🛠 **Project: MultiModuleCalculator.java**
 - Separate math operations
 - Scientific calculator package
 - Financial calculator package
@@ -263,13 +277,14 @@
 
 ### Day 18: Enum & Constants
 📘 **Concepts**: Enum types, constants, static final
-🧠 **Problems**:
-- Days of week enum
-- Status tracking
-- Configuration constants
-- Enum with methods
 
-🛠 **Project**: Order Management System
+🧠 **Problems**:
+- **DaysOfWeek.java**: Days of week enum
+- **StatusTracker.java**: Status tracking
+- **ConfigConstants.java**: Configuration constants
+- **EnumMethods.java**: Enum with methods
+
+🛠 **Project: OrderManagement.java**
 - Order status tracking
 - Priority levels
 - Payment methods
@@ -277,13 +292,14 @@
 
 ### Day 19: Inner Classes & Anonymous Classes
 📘 **Concepts**: Nested classes, anonymous classes, lambda intro
-🧠 **Problems**:
-- Event handling with inner classes
-- Comparator implementations
-- Callback mechanisms
-- Factory patterns
 
-🛠 **Project**: GUI Event System
+🧠 **Problems**:
+- **EventHandlerDemo.java**: Event handling with inner classes
+- **ComparatorImpl.java**: Comparator implementations
+- **CallbackMechanism.java**: Callback mechanisms
+- **FactoryPattern.java**: Factory patterns
+
+🛠 **Project: GUIEventSystem.java**
 - Button click handlers
 - Custom event listeners
 - Observer pattern basics
@@ -291,13 +307,14 @@
 
 ### Day 20: Advanced String & StringBuilder
 📘 **Concepts**: String optimization, StringBuilder, StringBuffer
-🧠 **Problems**:
-- String concatenation performance
-- Large text processing
-- String pool understanding
-- Memory-efficient operations
 
-🛠 **Project**: Log File Analyzer
+🧠 **Problems**:
+- **StringPerformance.java**: String concatenation performance
+- **LargeTextProcessor.java**: Large text processing
+- **StringPoolDemo.java**: String pool understanding
+- **MemoryOptimizer.java**: Memory-efficient operations
+
+🛠 **Project: LogFileAnalyzer.java**
 - Parse large log files
 - Generate summary reports
 - Performance optimization
@@ -305,13 +322,14 @@
 
 ### Day 21: Reflection & Annotations
 📘 **Concepts**: Basic reflection, annotations, metadata
-🧠 **Problems**:
-- Dynamic object creation
-- Method invocation
-- Field access
-- Custom annotations
 
-🛠 **Project**: Simple Framework
+🧠 **Problems**:
+- **DynamicObjectCreator.java**: Dynamic object creation
+- **MethodInvoker.java**: Method invocation
+- **FieldAccessor.java**: Field access
+- **CustomAnnotations.java**: Custom annotations
+
+🛠 **Project: SimpleFramework.java**
 - Configuration via annotations
 - Dynamic class loading
 - Metadata processing
@@ -319,13 +337,14 @@
 
 ### Day 22: Multithreading Basics
 📘 **Concepts**: Thread, Runnable, synchronization
-🧠 **Problems**:
-- Simple thread creation
-- Thread communication
-- Race condition handling
-- Basic synchronization
 
-🛠 **Project**: Download Manager
+🧠 **Problems**:
+- **ThreadCreator.java**: Simple thread creation
+- **ThreadCommunication.java**: Thread communication
+- **RaceConditionDemo.java**: Race condition handling
+- **BasicSynchronization.java**: Basic synchronization
+
+🛠 **Project: DownloadManager.java**
 - Multiple file downloads
 - Progress tracking
 - Thread pool basics
@@ -333,13 +352,14 @@
 
 ### Day 23: Lambda Expressions & Functional Programming
 📘 **Concepts**: Lambda syntax, functional interfaces, method references
-🧠 **Problems**:
-- Filter and map operations
-- Custom functional interfaces
-- Method references
-- Predicate usage
 
-🛠 **Project**: Data Processing Pipeline
+🧠 **Problems**:
+- **FilterMapDemo.java**: Filter and map operations
+- **CustomFunctionalInterface.java**: Custom functional interfaces
+- **MethodReferences.java**: Method references
+- **PredicateUsage.java**: Predicate usage
+
+🛠 **Project: DataProcessingPipeline.java**
 - Filter, transform, aggregate data
 - Functional programming style
 - Stream-like operations
@@ -347,13 +367,14 @@
 
 ### Day 24: Streams API Introduction
 📘 **Concepts**: Stream creation, intermediate/terminal operations
-🧠 **Problems**:
-- Filter collections
-- Map transformations
-- Reduce operations
-- Parallel streams
 
-🛠 **Project**: Sales Analytics System
+🧠 **Problems**:
+- **CollectionFilter.java**: Filter collections
+- **MapTransformation.java**: Map transformations
+- **ReduceOperations.java**: Reduce operations
+- **ParallelStreams.java**: Parallel streams
+
+🛠 **Project: SalesAnalytics.java**
 - Process transaction data
 - Generate insights
 - Performance comparisons
@@ -361,7 +382,8 @@
 
 ### Day 25: Review & Integration Project
 📘 **Concepts**: Integration of all learned concepts
-🛠 **Major Project**: Student Information System
+
+🛠 **Major Project: StudentInformationSystem.java**
 - Complete CRUD operations
 - File persistence
 - Data validation
@@ -376,13 +398,14 @@
 
 ### Day 26: Big O Notation & Complexity Analysis
 📘 **Concepts**: Time/space complexity, Big O, Omega, Theta
-🧠 **Problems**:
-- Analyze complexity of given algorithms
-- Compare different approaches
-- Identify bottlenecks
-- Optimize simple algorithms
 
-🛠 **Project**: Algorithm Performance Analyzer
+🧠 **Problems**:
+- **ComplexityAnalyzer.java**: Analyze complexity of given algorithms
+- **ApproachComparator.java**: Compare different approaches
+- **BottleneckIdentifier.java**: Identify bottlenecks
+- **AlgorithmOptimizer.java**: Optimize simple algorithms
+
+🛠 **Project: AlgorithmPerformanceAnalyzer.java**
 - Time different algorithms
 - Visualize complexity graphs
 - Compare implementations
@@ -390,13 +413,14 @@
 
 ### Day 27: Arrays & Two Pointers
 📘 **Concepts**: Array manipulation, two-pointer technique
-🧠 **LeetCode Problems**:
-- Two Sum (1)
-- Remove Duplicates (26)
-- Move Zeroes (283)
-- Squares of Sorted Array (977)
 
-🛠 **Project**: Array Algorithm Visualizer
+🧠 **LeetCode Problems**:
+- **TwoSum.java**: Two Sum (1)
+- **RemoveDuplicates.java**: Remove Duplicates (26)
+- **MoveZeroes.java**: Move Zeroes (283)
+- **SortedSquares.java**: Squares of Sorted Array (977)
+
+🛠 **Project: ArrayAlgorithmVisualizer.java**
 - Show step-by-step execution
 - Compare different approaches
 - Interactive input
@@ -404,13 +428,14 @@
 
 ### Day 28: Sliding Window Technique
 📘 **Concepts**: Fixed/variable window, substring problems
-🧠 **LeetCode Problems**:
-- Maximum Subarray (53)
-- Longest Substring Without Repeating (3)
-- Minimum Window Substring (76)
-- Sliding Window Maximum (239)
 
-🛠 **Project**: String Pattern Finder
+🧠 **LeetCode Problems**:
+- **MaximumSubarray.java**: Maximum Subarray (53)
+- **LongestSubstring.java**: Longest Substring Without Repeating (3)
+- **MinimumWindow.java**: Minimum Window Substring (76)
+- **SlidingWindowMaximum.java**: Sliding Window Maximum (239)
+
+🛠 **Project: StringPatternFinder.java**
 - Find all patterns in text
 - Optimize search algorithms
 - Performance comparison
@@ -418,13 +443,14 @@
 
 ### Day 29: Linked Lists - Basic Operations
 📘 **Concepts**: Node structure, traversal, insertion, deletion
-🧠 **LeetCode Problems**:
-- Reverse Linked List (206)
-- Merge Two Sorted Lists (21)
-- Remove Nth Node (19)
-- Linked List Cycle (141)
 
-🛠 **Project**: Custom Linked List Implementation
+🧠 **LeetCode Problems**:
+- **ReverseLinkedList.java**: Reverse Linked List (206)
+- **MergeTwoLists.java**: Merge Two Sorted Lists (21)
+- **RemoveNthNode.java**: Remove Nth Node (19)
+- **LinkedListCycle.java**: Linked List Cycle (141)
+
+🛠 **Project: CustomLinkedList.java**
 - Generic linked list
 - Iterator support
 - Performance comparison with ArrayList
@@ -432,13 +458,14 @@
 
 ### Day 30: Linked Lists - Advanced
 📘 **Concepts**: Doubly linked lists, circular lists, complex operations
-🧠 **LeetCode Problems**:
-- Add Two Numbers (2)
-- Copy List with Random Pointer (138)
-- Flatten Multilevel Doubly Linked List (430)
-- LRU Cache (146)
 
-🛠 **Project**: Memory Management Simulator
+🧠 **LeetCode Problems**:
+- **AddTwoNumbers.java**: Add Two Numbers (2)
+- **CopyRandomList.java**: Copy List with Random Pointer (138)
+- **FlattenMultilevel.java**: Flatten Multilevel Doubly Linked List (430)
+- **LRUCache.java**: LRU Cache (146)
+
+🛠 **Project: MemoryManagementSimulator.java**
 - Implement different caching strategies
 - LRU, LFU, FIFO implementations
 - Performance metrics
@@ -446,13 +473,14 @@
 
 ### Day 31: Stacks & Queues
 📘 **Concepts**: Stack/Queue operations, applications
-🧠 **LeetCode Problems**:
-- Valid Parentheses (20)
-- Implement Queue using Stacks (232)
-- Min Stack (155)
-- Sliding Window Maximum (239)
 
-🛠 **Project**: Expression Evaluator
+🧠 **LeetCode Problems**:
+- **ValidParentheses.java**: Valid Parentheses (20)
+- **QueueUsingStacks.java**: Implement Queue using Stacks (232)
+- **MinStack.java**: Min Stack (155)
+- **SlidingWindowMaximum.java**: Sliding Window Maximum (239)
+
+🛠 **Project: ExpressionEvaluator.java**
 - Infix to postfix conversion
 - Expression evaluation
 - Syntax validation
@@ -460,13 +488,14 @@
 
 ### Day 32: Trees - Binary Trees
 📘 **Concepts**: Tree structure, traversals, basic operations
-🧠 **LeetCode Problems**:
-- Binary Tree Inorder Traversal (94)
-- Maximum Depth (104)
-- Symmetric Tree (101)
-- Path Sum (112)
 
-🛠 **Project**: Family Tree Manager
+🧠 **LeetCode Problems**:
+- **InorderTraversal.java**: Binary Tree Inorder Traversal (94)
+- **MaximumDepth.java**: Maximum Depth (104)
+- **SymmetricTree.java**: Symmetric Tree (101)
+- **PathSum.java**: Path Sum (112)
+
+🛠 **Project: FamilyTreeManager.java**
 - Build family relationships
 - Find common ancestors
 - Generate family reports
@@ -474,13 +503,14 @@
 
 ### Day 33: Binary Search Trees
 📘 **Concepts**: BST properties, insertion, deletion, search
-🧠 **LeetCode Problems**:
-- Validate BST (98)
-- Lowest Common Ancestor (235)
-- Convert Sorted Array to BST (108)
-- Kth Smallest Element (230)
 
-🛠 **Project**: Dictionary with BST
+🧠 **LeetCode Problems**:
+- **ValidateBST.java**: Validate BST (98)
+- **LowestCommonAncestor.java**: Lowest Common Ancestor (235)
+- **SortedArrayToBST.java**: Convert Sorted Array to BST (108)
+- **KthSmallestElement.java**: Kth Smallest Element (230)
+
+🛠 **Project: DictionaryBST.java**
 - Fast word lookup
 - Auto-complete features
 - Balanced tree maintenance
@@ -488,13 +518,14 @@
 
 ### Day 34: Tree Traversals & Applications
 📘 **Concepts**: DFS, BFS, level-order traversal
-🧠 **LeetCode Problems**:
-- Binary Tree Level Order (102)
-- Binary Tree Zigzag (103)
-- Construct Tree from Traversals (105)
-- Serialize/Deserialize Tree (297)
 
-🛠 **Project**: File System Explorer
+🧠 **LeetCode Problems**:
+- **LevelOrder.java**: Binary Tree Level Order (102)
+- **ZigzagTraversal.java**: Binary Tree Zigzag (103)
+- **ConstructTree.java**: Construct Tree from Traversals (105)
+- **SerializeTree.java**: Serialize/Deserialize Tree (297)
+
+🛠 **Project: FileSystemExplorer.java**
 - Directory tree representation
 - File search functionality
 - Tree visualization
@@ -502,13 +533,14 @@
 
 ### Day 35: Heaps & Priority Queues
 📘 **Concepts**: Min/max heaps, heap operations, priority queues
-🧠 **LeetCode Problems**:
-- Kth Largest Element (215)
-- Top K Frequent Elements (347)
-- Merge K Sorted Lists (23)
-- Find Median from Data Stream (295)
 
-🛠 **Project**: Task Scheduler with Priorities
+🧠 **LeetCode Problems**:
+- **KthLargestElement.java**: Kth Largest Element (215)
+- **TopKFrequent.java**: Top K Frequent Elements (347)
+- **MergeKSortedLists.java**: Merge K Sorted Lists (23)
+- **MedianFinder.java**: Find Median from Data Stream (295)
+
+🛠 **Project: TaskSchedulerPriority.java**
 - Priority-based task execution
 - Dynamic priority adjustment
 - Real-time scheduling
@@ -516,13 +548,14 @@
 
 ### Day 36: Hashing & Hash Tables
 📘 **Concepts**: Hash functions, collision resolution, HashMap internals
-🧠 **LeetCode Problems**:
-- Two Sum (1)
-- Group Anagrams (49)
-- Longest Consecutive Sequence (128)
-- Design HashSet (705)
 
-🛠 **Project**: Custom Hash Table Implementation
+🧠 **LeetCode Problems**:
+- **TwoSum.java**: Two Sum (1)
+- **GroupAnagrams.java**: Group Anagrams (49)
+- **LongestConsecutive.java**: Longest Consecutive Sequence (128)
+- **DesignHashSet.java**: Design HashSet (705)
+
+🛠 **Project: CustomHashTable.java**
 - Custom hash function
 - Collision handling
 - Performance analysis
@@ -530,13 +563,14 @@
 
 ### Day 37: Recursion & Backtracking
 📘 **Concepts**: Recursive thinking, backtracking patterns
-🧠 **LeetCode Problems**:
-- Generate Parentheses (22)
-- Letter Combinations (17)
-- Subsets (78)
-- N-Queens (51)
 
-🛠 **Project**: Sudoku Solver
+🧠 **LeetCode Problems**:
+- **GenerateParentheses.java**: Generate Parentheses (22)
+- **LetterCombinations.java**: Letter Combinations (17)
+- **Subsets.java**: Subsets (78)
+- **NQueens.java**: N-Queens (51)
+
+🛠 **Project: SudokuSolver.java**
 - Backtracking algorithm
 - Constraint validation
 - Solution visualization
@@ -544,13 +578,14 @@
 
 ### Day 38: Dynamic Programming - 1D
 📘 **Concepts**: Memoization, tabulation, state transitions
-🧠 **LeetCode Problems**:
-- Fibonacci Number (509)
-- Climbing Stairs (70)
-- House Robber (198)
-- Coin Change (322)
 
-🛠 **Project**: Investment Calculator
+🧠 **LeetCode Problems**:
+- **FibonacciDP.java**: Fibonacci Number (509)
+- **ClimbingStairs.java**: Climbing Stairs (70)
+- **HouseRobber.java**: House Robber (198)
+- **CoinChange.java**: Coin Change (322)
+
+🛠 **Project: InvestmentCalculator.java**
 - Optimal investment strategies
 - Risk-return analysis
 - Dynamic planning
@@ -558,13 +593,14 @@
 
 ### Day 39: Dynamic Programming - 2D
 📘 **Concepts**: 2D state space, grid problems
-🧠 **LeetCode Problems**:
-- Unique Paths (62)
-- Minimum Path Sum (64)
-- Edit Distance (72)
-- Longest Common Subsequence (1143)
 
-🛠 **Project**: Game Path Optimizer
+🧠 **LeetCode Problems**:
+- **UniquePaths.java**: Unique Paths (62)
+- **MinPathSum.java**: Minimum Path Sum (64)
+- **EditDistance.java**: Edit Distance (72)
+- **LongestCommonSubsequence.java**: Longest Common Subsequence (1143)
+
+🛠 **Project: GamePathOptimizer.java**
 - Find optimal paths in games
 - Multiple constraints
 - Strategy recommendations
@@ -572,13 +608,14 @@
 
 ### Day 40: Graphs - Representation & Traversal
 📘 **Concepts**: Adjacency list/matrix, DFS, BFS
-🧠 **LeetCode Problems**:
-- Number of Islands (200)
-- Clone Graph (133)
-- Course Schedule (207)
-- Pacific Atlantic Water Flow (417)
 
-🛠 **Project**: Social Network Analyzer
+🧠 **LeetCode Problems**:
+- **NumberOfIslands.java**: Number of Islands (200)
+- **CloneGraph.java**: Clone Graph (133)
+- **CourseSchedule.java**: Course Schedule (207)
+- **PacificAtlantic.java**: Pacific Atlantic Water Flow (417)
+
+🛠 **Project: SocialNetworkAnalyzer.java**
 - Friend connections
 - Shortest path between users
 - Community detection
@@ -586,13 +623,14 @@
 
 ### Day 41: Graph Algorithms - Shortest Path
 📘 **Concepts**: Dijkstra's, Bellman-Ford, Floyd-Warshall
-🧠 **LeetCode Problems**:
-- Network Delay Time (743)
-- Cheapest Flights (787)
-- Path with Maximum Probability (1514)
-- Shortest Path in Binary Matrix (1091)
 
-🛠 **Project**: GPS Navigation System
+🧠 **LeetCode Problems**:
+- **NetworkDelayTime.java**: Network Delay Time (743)
+- **CheapestFlights.java**: Cheapest Flights (787)
+- **MaxProbabilityPath.java**: Path with Maximum Probability (1514)
+- **ShortestPathBinary.java**: Shortest Path in Binary Matrix (1091)
+
+🛠 **Project: GPSNavigationSystem.java**
 - Route optimization
 - Real-time traffic updates
 - Alternative path suggestions
@@ -600,13 +638,14 @@
 
 ### Day 42: Graph Algorithms - Advanced
 📘 **Concepts**: Topological sort, Union-Find, MST
-🧠 **LeetCode Problems**:
-- Course Schedule II (210)
-- Number of Connected Components (323)
-- Minimum Spanning Tree (1584)
-- Accounts Merge (721)
 
-🛠 **Project**: Project Dependency Manager
+🧠 **LeetCode Problems**:
+- **CourseScheduleII.java**: Course Schedule II (210)
+- **ConnectedComponents.java**: Number of Connected Components (323)
+- **MinimumSpanningTree.java**: Minimum Spanning Tree (1584)
+- **AccountsMerge.java**: Accounts Merge (721)
+
+🛠 **Project: ProjectDependencyManager.java**
 - Task scheduling
 - Dependency resolution
 - Critical path analysis
@@ -614,13 +653,14 @@
 
 ### Day 43: Greedy Algorithms
 📘 **Concepts**: Greedy choice, optimization problems
-🧠 **LeetCode Problems**:
-- Jump Game (55)
-- Gas Station (134)
-- Partition Labels (763)
-- Minimum Number of Arrows (452)
 
-🛠 **Project**: Resource Allocation System
+🧠 **LeetCode Problems**:
+- **JumpGame.java**: Jump Game (55)
+- **GasStation.java**: Gas Station (134)
+- **PartitionLabels.java**: Partition Labels (763)
+- **MinimumArrows.java**: Minimum Number of Arrows (452)
+
+🛠 **Project: ResourceAllocationSystem.java**
 - Optimal resource distribution
 - Scheduling algorithms
 - Conflict resolution
@@ -628,13 +668,14 @@
 
 ### Day 44: Trie (Prefix Tree)
 📘 **Concepts**: Trie structure, prefix matching, word search
-🧠 **LeetCode Problems**:
-- Implement Trie (208)
-- Word Search II (212)
-- Replace Words (648)
-- Design Search Autocomplete (642)
 
-🛠 **Project**: Auto-complete Search Engine
+🧠 **LeetCode Problems**:
+- **ImplementTrie.java**: Implement Trie (208)
+- **WordSearchII.java**: Word Search II (212)
+- **ReplaceWords.java**: Replace Words (648)
+- **SearchAutocomplete.java**: Design Search Autocomplete (642)
+
+🛠 **Project: AutocompleteSearchEngine.java**
 - Fast prefix matching
 - Suggestion ranking
 - Real-time search
@@ -642,13 +683,14 @@
 
 ### Day 45: Bit Manipulation
 📘 **Concepts**: Bitwise operations, bit tricks, binary representations
-🧠 **LeetCode Problems**:
-- Single Number (136)
-- Number of 1 Bits (191)
-- Counting Bits (338)
-- Maximum XOR (421)
 
-🛠 **Project**: Compression Algorithm
+🧠 **LeetCode Problems**:
+- **SingleNumber.java**: Single Number (136)
+- **NumberOfBits.java**: Number of 1 Bits (191)
+- **CountingBits.java**: Counting Bits (338)
+- **MaximumXOR.java**: Maximum XOR (421)
+
+🛠 **Project: CompressionAlgorithm.java**
 - Bit-level data compression
 - Binary encoding/decoding
 - Efficiency metrics
@@ -656,13 +698,14 @@
 
 ### Day 46: Advanced String Algorithms
 📘 **Concepts**: KMP, Rabin-Karp, string matching
-🧠 **LeetCode Problems**:
-- Implement strStr() (28)
-- Repeated String Match (686)
-- Shortest Palindrome (214)
-- Find All Anagrams (438)
 
-🛠 **Project**: Text Search Engine
+🧠 **LeetCode Problems**:
+- **ImplementStrStr.java**: Implement strStr() (28)
+- **RepeatedStringMatch.java**: Repeated String Match (686)
+- **ShortestPalindrome.java**: Shortest Palindrome (214)
+- **FindAllAnagrams.java**: Find All Anagrams (438)
+
+🛠 **Project: TextSearchEngine.java**
 - Multiple pattern matching
 - Fuzzy search capabilities
 - Performance optimization
@@ -670,13 +713,14 @@
 
 ### Day 47: Divide and Conquer
 📘 **Concepts**: Merge sort, quick sort, divide and conquer paradigm
-🧠 **LeetCode Problems**:
-- Merge Sort (912)
-- Kth Largest Element (215)
-- Maximum Subarray (53)
-- Count of Smaller Numbers (315)
 
-🛠 **Project**: Large Dataset Sorter
+🧠 **LeetCode Problems**:
+- **MergeSort.java**: Merge Sort (912)
+- **KthLargestElement.java**: Kth Largest Element (215)
+- **MaximumSubarray.java**: Maximum Subarray (53)
+- **CountSmaller.java**: Count of Smaller Numbers (315)
+
+🛠 **Project: LargeDatasetSorter.java**
 - External sorting algorithms
 - Memory-efficient processing
 - Performance comparison
@@ -684,13 +728,14 @@
 
 ### Day 48: Advanced Data Structures
 📘 **Concepts**: Segment trees, Fenwick trees, advanced structures
-🧠 **LeetCode Problems**:
-- Range Sum Query (307)
-- Count of Smaller Numbers (315)
-- Rectangle Area (223)
-- Skyline Problem (218)
 
-🛠 **Project**: Range Query System
+🧠 **LeetCode Problems**:
+- **RangeSumQuery.java**: Range Sum Query (307)
+- **CountSmaller.java**: Count of Smaller Numbers (315)
+- **RectangleArea.java**: Rectangle Area (223)
+- **SkylineProblem.java**: Skyline Problem (218)
+
+🛠 **Project: RangeQuerySystem.java**
 - Efficient range operations
 - Dynamic updates
 - Multiple query types
@@ -698,13 +743,14 @@
 
 ### Day 49: Problem Solving Patterns
 📘 **Concepts**: Common patterns, problem categorization
-🧠 **Mixed Problems**:
-- Review hardest problems from each category
-- Identify patterns
-- Optimization techniques
-- Time/space trade-offs
 
-🛠 **Project**: Problem Solver Assistant
+🧠 **Mixed Problems**:
+- **PatternRecognition.java**: Review hardest problems from each category
+- **SolutionOptimizer.java**: Identify patterns
+- **ComplexityAnalyzer.java**: Optimization techniques
+- **TradeoffAnalyzer.java**: Time/space trade-offs
+
+🛠 **Project: ProblemSolverAssistant.java**
 - Pattern recognition
 - Solution templates
 - Complexity analysis
@@ -712,18 +758,18 @@
 
 ### Day 50: Competitive Programming & Mock Interviews
 📘 **Concepts**: Contest strategies, interview techniques
-🧠 **Practice**:
-- Timed problem solving
-- Mock interview questions
-- Code review sessions
-- Optimization challenges
 
-🛠 **Project**: Coding Interview Simulator
+🧠 **Practice**:
+- **TimedProblemSolver.java**: Timed problem solving
+- **MockInterview.java**: Mock interview questions
+- **CodeReviewer.java**: Code review sessions
+- **OptimizationChallenge.java**: Optimization challenges
+
+🛠 **Project: CodingInterviewSimulator.java**
 - Random problem generator
 - Timer and scoring
 - Solution tracking
 🎯 **Clue**: Simulate real interview conditions
-
 ---
 
 ## 🏗️ PHASE 3: ADVANCED OOP & SYSTEM DESIGN (Days 51-75)
